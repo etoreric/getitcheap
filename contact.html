@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get It Cheap - Affordable Electrical Goods</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="showPage('home')">Get It Cheap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html.html" onclick="showPage('home')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html" onclick="showPage('shop')">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" onclick="showPage('contact')">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    
+
+    <!-- Contact Section -->
+<section class="contact-section py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-5">
+        <h2 class="section-title mb-3">Contact Us</h2>
+        <p class="lead">Have questions? Get in touch with our team today!</p>
+      </div>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body p-4">
+            <h3 class="mb-4">Send us a message</h3>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="phone" class="form-control" id="phone" placeholder="Your Phone">
+                    <label for="phone">Phone Number</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Your Message" id="message" style="height: 160px"></textarea>
+                <label for="message">Your Message</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Map and Contact Info -->
+      <div class="col-lg-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body p-0">
+            <!-- Google Map -->
+            <div class="ratio ratio-16x9">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179357!2d-73.9878449241641!3d40.74844097138985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689877725832!5m2!1sen!2sus" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-3">Get It Cheap</h3>
+                    <p>Your one-stop shop for affordable electrical goods and supplies. Quality products at prices that won't shock you!</p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <div class="footer-links">
+                        <a href="#" onclick="showPage('home')">Home</a>
+                        <a href="#" onclick="showPage('shop')">Shop</a>
+                        <a href="#" onclick="showPage('contact')">Contact</a>
+                        <a href="#">About Us</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Categories</h5>
+                    <div class="footer-links">
+                        <a href="#">Lighting</a>
+                        <a href="#">Cables & Wires</a>
+                        <a href="#">Tools & Equipment</a>
+                        <a href="#">Smart Home</a>
+                        <a href="#">Safety Gear</a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Store Info</h5>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-map-marker-alt me-2"></i> 123 Electric Avenue</a>
+                        <a href="#"><i class="fas fa-phone me-2"></i> (123) 456-7890</a>
+                        <a href="#"><i class="fas fa-envelope me-2"></i> info@getitcheap.com</a>
+                        <a href="#"><i class="fas fa-clock me-2"></i> Mon-Fri: 9am-7pm</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-0 mb-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Get It Cheap. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">
+                        <a href="#" class="text-white">Privacy Policy</a> | 
+                        <a href="#" class="text-white">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Page navigation
+        function showPage(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active-page');
+            });
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active-page');
+            
+            // Close navbar on mobile after click
+            if (window.innerWidth < 768) {
+                const navbarCollapse = document.querySelector('.navbar-collapse');
+                if (navbarCollapse.classList.contains('show')) {
+                    const bsCollapse = new bootstrap.Collapse(navbarCollapse);
+                    bsCollapse.hide();
+                }
+            }
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+        
+        // Scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            fadeElements.forEach(element => {
+                fadeObserver.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>
